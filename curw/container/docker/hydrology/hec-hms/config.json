@@ -1,0 +1,39 @@
+{
+    "HEC_HMS_DIR"       : "hec-hms41",
+    "HEC_DSSVUE_DIR"    : "dssvue",
+    "STATUS_FILE"       : "Status.txt",
+    "OUTPUT_DIR"        : "./OUTPUT",
+
+    "TIME_INTERVAL"     : 60,
+    "HEC_HMS_MODEL_DIR" : "/model",
+    "DSS_INPUT_FILE"    : "/model/2008_2_Events_input.dss",
+    "DSS_OUTPUT_FILE"   : "/model/2008_2_Events_run.dss",
+    "HEC_HMS_CONTROL"   : "/model/Control_1.control",
+    "HEC_HMS_RUN"       : "/model/2008_2_Events.run",
+    "HEC_HMS_GAGE"      : "/model/2008_2_Events.gage",
+
+    "RAIN_CSV_FILE"     : "DailyRain.csv",
+    "DISCHARGE_CSV_FILE": "DailyDischarge.csv",
+    "RF_DIR_PATH"       : "/mnt/disks/wrf-mod/OUTPUT/RF",
+    "KUB_DIR_PATH"      : "/mnt/disks/wrf-mod/OUTPUT/kelani-upper-basin",
+    "RF_GRID_DIR_PATH"  : "/mnt/disks/wrf-mod/OUTPUT/colombo",
+    "RF_FORECASTED_DAYS": -1,
+
+    "FLO2D_RAINCELL_DIR_PATH" : "/mnt/disks/wrf-mod/OUTPUT/kelani-basin",
+    "INFLOW_DAT_FILE"   : "./FLO2D/INFLOW.DAT",
+    "OUTFLOW_DAT_FILE"  : "./FLO2D/OUTFLOW.DAT",
+    "BASE_OUT_FILE"     : "BASE.OUT",
+    "HYCHAN_OUT_FILE"   : "HYCHAN.OUT",
+    "INIT_WL_CONFIG"    : "./Template/INITWL.CONF",
+    "INIT_TIDAL_CONFIG" : "./Template/INITTIDAL.CONF",
+    "WATER_DISCHARGE_DIR"     : "water_discharge",
+    "WATER_DISCHARGE_FILE"    : "water_discharge.txt",
+
+    "HOST_ADDRESS"      : "localhost",
+    "HOST_PORT"         : 8080,
+
+    "MYSQL_HOST"        : "localhost",
+    "MYSQL_USER"        : "root",
+    "MYSQL_PASSWORD"    : "",
+    "MYSQL_DB"          : "curw"
+}

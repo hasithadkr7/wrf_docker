@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "formatters": {
+    "f": {
+      "format": "%(asctime)s %(threadName)s %(module)s %(levelname)s %(message)s"
+    }
+  },
+  "handlers": {
+    "h": {
+      "class": "logging.StreamHandler",
+      "formatter": "f",
+      "level": "INFO"
+    },
+    "fh": {
+      "class": "logging.handlers.TimedRotatingFileHandler",
+      "formatter": "f",
+      "level": "INFO",
+      "filename": "wrfrun.log",
+      "when": "D",
+      "interval": 1
+    }
+  },
+  "root": {
+    "handlers": [
+      "h",
+      "fh"
+    ],
+    "level": "INFO"
+  }
+}

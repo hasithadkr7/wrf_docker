@@ -1,0 +1,7 @@
+id,Lon,Lat,Place
+1,79.95,6.6,Kalutara
+2,80.38,6.54,Kalawana
+3,80.38,6.72,Ratnapura
+4,80.58,6.6,Kahawatta
+6,79.8653,6.898158,Colombo
+5,80.3274,6.72712,Dodampe

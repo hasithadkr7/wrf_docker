@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "wrf_config": {
+    "wrf_home": "/mnt/disks/wrf-mod/",
+    "gfs_dir": "/mnt/disks/wrf-mod/DATA/GFS",
+    "geog_dir": "/mnt/disks/wrf-mod/DATA/geog",
+    "nfs_dir": "/mnt/disks/wrf-mod/DATA/nfs",
+    "period": 3,
+    "namelist_input": "namelist.input",
+    "namelist_wps": "namelist.wps",
+    "procs": 4,
+    "gfs_clean": 1,
+    "gfs_cycle": "00",
+    "gfs_delay": 60,
+    "gfs_inv": "gfs.tCCz.pgrb2.RRRR.fFFF",
+    "gfs_res": "0p50",
+    "gfs_retries": 5,
+    "gfs_step": 3,
+    "gfs_url": "http://www.ftp.ncep.noaa.gov/data/nccf/com/gfs/prod/gfs.YYYYMMDD/CC/",
+    "gfs_threads": 8,
+    "gfs_lag": 4
+  }
+}

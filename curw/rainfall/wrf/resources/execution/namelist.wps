@@ -1,0 +1,38 @@
+&share
+ wrf_core = 'ARW',
+ max_dom = 3,
+ start_date = 'YYYY1-MM1-DD1_hh1:mm1:00','YYYY1-MM1-DD1_hh1:mm1:00','YYYY1-MM1-DD1_hh1:mm1:00',
+ end_date   = 'YYYY2-MM2-DD2_hh2:mm2:00','YYYY2-MM2-DD2_hh2:mm2:00','YYYY2-MM2-DD2_hh2:mm2:00',
+ interval_seconds = 10800,
+ io_form_geogrid = 2,
+/
+
+&geogrid
+ parent_id         =   1,   1, 2,
+ parent_grid_ratio =   1,   3, 3,
+ i_parent_start    =   1,  24, 35,
+ j_parent_start    =   1,  26, 35,
+ e_we              =  80, 103, 100,
+ e_sn              =  90, 121, 163,
+ geog_data_res     = '10m','5m','2m',
+ dx = 27000,
+ dy = 27000,
+ map_proj = 'mercator',
+ ref_lat   =  7.697,
+ ref_lon   =  80.774,
+ truelat1  =  7.697,
+ truelat2  =  0,
+ stand_lon =  80.774,
+ geog_data_path = 'GEOG'
+/
+
+&ungrib
+ out_format = 'WPS',
+ prefix = 'FILE',
+/
+
+&metgrid
+ fg_name = 'FILE'
+ io_form_metgrid = 2, 
+/
+
